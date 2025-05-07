@@ -1,34 +1,43 @@
 import React from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
+import { FlatList, TouchableOpacity, View, Text } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+import storyData from '../data/storyData.json';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
 type RootStackParamList = {
   Home: undefined;
-  Story: undefined;
+  Story: { story: any };
   Result: undefined;
 };
 
-type HomeScreenNavigationProp = NativeStackNavigationProp<RootStackParamList, 'Home'>;
+type NavigationProp = NativeStackNavigationProp<RootStackParamList, 'Home'>;
 
-type Props = {
-  navigation: HomeScreenNavigationProp;
-};
+export default function HomeScreen() {
+  const navigation = useNavigation<NavigationProp>();
 
-export default function HomeScreen({ navigation }: Props) {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text style={{ fontSize: 24, marginBottom: 20 }}>Karar Kutusu</Text>
-      <TouchableOpacity
-        onPress={() => navigation.navigate('Story')}
-        style={{
-          backgroundColor: '#4f46e5',
-          paddingHorizontal: 20,
-          paddingVertical: 10,
-          borderRadius: 10,
-        }}
-      >
-        <Text style={{ color: 'white' }}>Hikayeyi Başlat</Text>
-      </TouchableOpacity>
+    <View style={{ flex: 1, padding: 20, backgroundColor: '#fff' }}>
+      <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 16 }}>Hikayeni Seç</Text>
+
+      <FlatList
+        data={storyData}
+        keyExtractor={(item) => item.id}
+        renderItem={({ item }) => (
+          <TouchableOpacity
+            style={{
+              backgroundColor: '#dbeafe',
+              padding: 16,
+              borderRadius: 12,
+              marginBottom: 12,
+            }}
+            onPress={() => navigation.navigate('Story', { story: item })}
+          >
+            <Text style={{ fontSize: 18, fontWeight: '600', color: '#1e293b' }}>
+              {item.title}
+            </Text>
+          </TouchableOpacity>
+        )}
+      />
     </View>
   );
 }

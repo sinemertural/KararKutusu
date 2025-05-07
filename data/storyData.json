@@ -1,0 +1,40 @@
+[
+    {
+      "id": "1",
+      "title": "Ormanda Kaybolan Çocuk",
+      "sections": [
+        {
+          "id": "1",
+          "text": "Bir ormanın ortasındasın. İleri mi gideceksin, yoksa kamp mı kuracaksın?",
+          "choices": [
+            { "text": "İleri git", "nextSectionId": "2" },
+            { "text": "Kamp kur", "nextSectionId": "3" }
+          ]
+        },
+        {
+          "id": "2",
+          "text": "Yolun kenarında garip bir kulübe görüyorsun. Kapıyı çalacak mısın?",
+          "choices": [
+            { "text": "Kapıyı çal", "nextSectionId": "4" },
+            { "text": "Uzaklaş", "nextSectionId": "5" }
+          ]
+        },
+        {
+          "id": "3",
+          "text": "Gece boyunca vahşi hayvanlar seni buldu ve kaçmak zorunda kaldın.",
+          "choices": []
+        },
+        {
+          "id": "4",
+          "text": "Yaşlı bir adam seni içeri davet etti ve yardım etti. Hikaye burada mutlu sonla biter.",
+          "choices": []
+        },
+        {
+          "id": "5",
+          "text": "Ormanda kayboldun ve yolunu bulamadın. Hikaye burada sona erdi.",
+          "choices": []
+        }
+      ]
+    }
+  ]
+  
