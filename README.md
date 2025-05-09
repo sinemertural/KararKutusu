@@ -102,8 +102,7 @@ KararKutusu/
 <img src="https://github.com/user-attachments/assets/ec19c559-e40e-4695-a056-f6c342208a94" width="300" />
 
 <h4>🎉 Hikaye Sonu</h4>  
-<img src="https://github.com/user-attachments/assets/9e3dd5c3-4603-43a4-b6ad-a1d55741b955
-" width="300" />
+<img src="https://github.com/user-attachments/assets/9e3dd5c3-4603-43a4-b6ad-a1d55741b955" width="300" />
 
 <h4>🔁 Başlangıca Dön</h4>  
 <img src="https://github.com/user-attachments/assets/aa1dafb1-a8ac-4448-b070-7d50b35e5c33" width="300" />
