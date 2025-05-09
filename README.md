@@ -88,13 +88,25 @@ KararKutusu/
 
 ---
 
+📸 Uygulama Görselleri
+
 ## 📸 Uygulama Görselleri
 
-![Screenshot_1746780510](https://github.com/user-attachments/assets/ee3fc824-8b7e-4859-adee-a961f38e76c2)
-![Screenshot_1746780515](https://github.com/user-attachments/assets/ec19c559-e40e-4695-a056-f6c342208a94)
-![Screenshot_1746780520](https://github.com/user-attachments/assets/9e3dd5c3-4603-43a4-b6ad-a1d55741b955)
-![Screenshot_1746780522](https://github.com/user-attachments/assets/aa1dafb1-a8ac-4448-b070-7d50b35e5c33)
-![Screenshot_1746780527](https://github.com/user-attachments/assets/ed0e5f00-3cd1-4c1b-a83f-7ae64ccdc872)
+<h4>📱 Ana Sayfa</h4>  
+<img src="https://github.com/user-attachments/assets/ee3fc824-8b7e-4859-adee-a961f38e76c2" width="300" />
+
+<h4>📊 Seçim Geçmişi</h4>  
+<img src="https://github.com/user-attachments/assets/ec19c559-e40e-4695-a056-f6c342208a94" width="300" />
+
+<h4>🧠 Hikaye Ekranı</h4>  
+<img src="https://github.com/user-attachments/assets/9e3dd5c3-4603-43a4-b6ad-a1d55741b955" width="300" />
+
+<h4>🎉 Hikaye Sonu</h4>  
+<img src="https://github.com/user-attachments/assets/aa1dafb1-a8ac-4448-b070-7d50b35e5c33" width="300" />
+
+<h4>🔁 Başlangıca Dön</h4>  
+<img src="https://github.com/user-attachments/assets/ed0e5f00-3cd1-4c1b-a83f-7ae64ccdc872" width="300" />
+
 
 
 Ana sayfa, hikaye adımları, ilerleme ve sonuç ekranları uygulama içerisinde yer almaktadır.
