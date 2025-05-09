@@ -1,40 +1,110 @@
 [
-    {
-      "id": "1",
-      "title": "Ormanda Kaybolan Çocuk",
-      "sections": [
-        {
-          "id": "1",
-          "text": "Bir ormanın ortasındasın. İleri mi gideceksin, yoksa kamp mı kuracaksın?",
-          "choices": [
-            { "text": "İleri git", "nextSectionId": "2" },
-            { "text": "Kamp kur", "nextSectionId": "3" }
-          ]
-        },
-        {
-          "id": "2",
-          "text": "Yolun kenarında garip bir kulübe görüyorsun. Kapıyı çalacak mısın?",
-          "choices": [
-            { "text": "Kapıyı çal", "nextSectionId": "4" },
-            { "text": "Uzaklaş", "nextSectionId": "5" }
-          ]
-        },
-        {
-          "id": "3",
-          "text": "Gece boyunca vahşi hayvanlar seni buldu ve kaçmak zorunda kaldın.",
-          "choices": []
-        },
-        {
-          "id": "4",
-          "text": "Yaşlı bir adam seni içeri davet etti ve yardım etti. Hikaye burada mutlu sonla biter.",
-          "choices": []
-        },
-        {
-          "id": "5",
-          "text": "Ormanda kayboldun ve yolunu bulamadın. Hikaye burada sona erdi.",
-          "choices": []
-        }
-      ]
-    }
-  ]
-  
+  {
+    "id": "1",
+    "title": "Ormanda Kaybolan Çocuk",
+    "sections": [
+      {
+        "id": "1",
+        "text": "Bir ormanın ortasındasın. İleri mi gideceksin, yoksa kamp mı kuracaksın?",
+        "choices": [
+          { "text": "İleri git", "nextSectionId": "2" },
+          { "text": "Kamp kur", "nextSectionId": "3" }
+        ]
+      },
+      {
+        "id": "2",
+        "text": "Yolun kenarında garip bir kulübe görüyorsun. Kapıyı çalacak mısın?",
+        "choices": [
+          { "text": "Kapıyı çal", "nextSectionId": "4" },
+          { "text": "Uzaklaş", "nextSectionId": "5" }
+        ]
+      },
+      {
+        "id": "3",
+        "text": "Gece boyunca vahşi hayvanlar seni buldu ve kaçmak zorunda kaldın.",
+        "choices": []
+      },
+      {
+        "id": "4",
+        "text": "Yaşlı bir adam seni içeri davet etti ve yardım etti. Hikaye burada mutlu sonla biter.",
+        "choices": []
+      },
+      {
+        "id": "5",
+        "text": "Ormanda kayboldun ve yolunu bulamadın. Hikaye burada sona erdi.",
+        "choices": []
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Zaman Yolcusu",
+    "sections": [
+      {
+        "id": "1",
+        "text": "Bir zaman makinesi buldun. Geçmişe mi gideceksin, geleceğe mi?",
+        "choices": [
+          { "text": "Geçmiş", "nextSectionId": "2" },
+          { "text": "Gelecek", "nextSectionId": "3" }
+        ]
+      },
+      {
+        "id": "2",
+        "text": "Orta Çağ'a geldin ve bir savaşın ortasındasın. Kaçacak mısın?",
+        "choices": [
+          { "text": "Kaç", "nextSectionId": "4" },
+          { "text": "Savaş", "nextSectionId": "5" }
+        ]
+      },
+      {
+        "id": "3",
+        "text": "Gelecekte robotlar dünyayı ele geçirmiş. Direnişe mi katılacaksın?",
+        "choices": [
+          { "text": "Evet", "nextSectionId": "6" },
+          { "text": "Hayır", "nextSectionId": "7" }
+        ]
+      },
+      { "id": "4", "text": "Kaçarken zaman makinesi bozuldu. Sonsuz döngüye hapsoldun.", "choices": [] },
+      { "id": "5", "text": "Savaşta kahraman oldun. Hikaye mutlu biter.", "choices": [] },
+      { "id": "6", "text": "Direniş kazandı. İnsanlık kurtuldu.", "choices": [] },
+      { "id": "7", "text": "Robotlar seni yakaladı. Hikaye burada sona erdi.", "choices": [] }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Uzayda Yalnız",
+    "sections": [
+      {
+        "id": "1",
+        "text": "Uzay geminde tek başınasın. Yardım çağrısı mı yapacaksın, gemiyi mi onarmaya çalışacaksın?",
+        "choices": [
+          { "text": "Yardım çağrısı yap", "nextSectionId": "2" },
+          { "text": "Tamir etmeye çalış", "nextSectionId": "3" }
+        ]
+      },
+      {
+        "id": "2",
+        "text": "Gelen sinyal korsanlara ait. Kaçacak mısın?",
+        "choices": [
+          { "text": "Kaç", "nextSectionId": "4" },
+          { "text": "Teslim ol", "nextSectionId": "5" }
+        ]
+      },
+      {
+        "id": "3",
+        "text": "Gemiyi onardın ve yakındaki bir istasyona vardın.",
+        "choices": []
+      },
+      {
+        "id": "4",
+        "text": "Kaçmayı başardın ama yakıtın bitti. Uzay boşluğunda kayboldun.",
+        "choices": []
+      },
+      {
+        "id": "5",
+        "text": "Korsanlar seni esir aldı. Hikaye burada sona erdi.",
+        "choices": []
+      }
+    ]
+  }
+]
